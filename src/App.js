@@ -1,9 +1,10 @@
 import React from 'react';
 
 import './App.css';
+import download from './assets/download.png';
 
 function App() {
-    return <h1>Hello World</h1>
+    return <img src={download} />
 }
 
 export default App;
