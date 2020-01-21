@@ -1,10 +1,12 @@
 import React from 'react';
 
 import './App.css';
-import download from './assets/download.png';
+
+import TechList from './components/TechList';
+
 
 function App() {
-    return <img src={download} />
+    return <TechList />
 }
 
 export default App;
